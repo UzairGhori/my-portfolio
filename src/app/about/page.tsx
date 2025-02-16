@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 export default function About() {
   return (
     <section className="min-h-screen flex items-center justify-center p-4 animated-background">
-      <div className="container mx-auto max-w-4xl pt-4">
+      <div className="container mx-auto max-w-4xl pt-10">
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}

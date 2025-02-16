@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 export default function Contact() {
   return (
     <section className="min-h-screen flex items-center justify-center p-4 animated-background">
-      <div className="container mx-auto max-w-2xl pt-4">
+      <div className="container mx-auto max-w-2xl pt-10">
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}

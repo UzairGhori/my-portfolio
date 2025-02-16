@@ -8,12 +8,16 @@ const skills = [
   { name: 'HTML', percentage: 100 },
   { name: 'CSS', percentage: 95 },
   { name: 'TypeScript', percentage: 85 },
+  {name: 'React', percentage: 85 },
+  { name: 'JavaScript', percentage: 85 },
+  { name: 'Node.js', percentage: 80 },
+  
 ];
 
 export default function Skills() {
   return (
     <section className="min-h-screen flex items-center justify-center p-4 animated-background">
-      <div className="container mx-auto pt-4">
+      <div className="container mx-auto pt-20">
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -32,8 +36,8 @@ export default function Skills() {
               className="bg-gray-800 p-4 rounded-lg shadow-lg"
             >
               <div className="flex justify-between mb-2">
-                <span className="text-white">{skill.name}</span>
-                <span className="text-primary">{skill.percentage}%</span>
+                <span className="text-white font-serif text-xl">{skill.name}</span>
+                <span className="text-primary text-xl font-bold font-serif">{skill.percentage}%</span>
               </div>
               <div className="w-full bg-gray-700 rounded-full h-2">
                 <motion.div
